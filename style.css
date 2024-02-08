@@ -7,6 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap:100px;
 
 }
 form input[type="text"]{
@@ -30,4 +32,7 @@ form input[type="text"],button[type="submit"]{
 }
 .btn:hover{
     background-color:#ff5c5c;
+}
+.card-img-top{
+    width:100px;
 }
